@@ -47,11 +47,11 @@ Base URL: `http://localhost:8080/categories`
 
 | Método | Rota | Descrição |
 |--------|------|-----------|
-| POST | `/categories` | Cria uma nova categoria |
-| GET | `/categories` | Lista todas as categorias |
-| GET | `/categories/{id}` | Busca uma categoria pelo id |
-| PUT | `/categories/{id}` | Atualiza uma categoria |
-| DELETE | `/categories/{id}` | Remove uma categoria |
+| POST | `/categorias` | Cria uma nova categoria |
+| GET | `/categorias` | Lista todas as categorias |
+| GET | `/categorias/{id}` | Busca uma categoria pelo id |
+| PUT | `/categorias/{id}` | Atualiza uma categoria |
+| DELETE | `/categorias/{id}` | Remove uma categoria |
 
 **Exemplo de criação:**
 ```json
