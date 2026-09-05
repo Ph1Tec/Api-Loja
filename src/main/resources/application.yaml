@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: demo
+  datasource:
+    url: jdbc:postgresql://localhost:5432/lojadb
+    username: postgres
+    password: ${DBPASS}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
